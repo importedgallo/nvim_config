@@ -144,6 +144,9 @@ return require('packer').startup(function()
 	-- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
+
+-- dashboard nvim
 end)
+
 
 

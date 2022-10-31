@@ -1,7 +1,7 @@
 -- lua.init config
-require('settings')
-require('keymaps')
-require('packer-plugins')
+require('lua/andre/core/settings')
+require('lua/andre/core/keymaps')
+require('lua/andre/packer-plugins')
 
 
 

@@ -5,7 +5,13 @@ if not status then
 end
 
 require("tokyonight").setup({
-	transparent = true,
+	transparent = false,
+	style = "dark",
+	styles = {
+		keywords = { italic = true },
+		comments = { italic = true },
+		sidebars = "dark",
+	},
 })
 
 vim.cmd("colorscheme tokyonight")

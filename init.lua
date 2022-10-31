@@ -1,7 +1,8 @@
 -- lua.init config
-require('lua/andre/core/settings')
-require('lua/andre/core/keymaps')
-require('lua/andre/packer-plugins')
+require('andre.core.options')
+require('andre.core.keymaps')
+require('andre.core.colorscheme')
+require('andre.packer-plugins')
 
 
 

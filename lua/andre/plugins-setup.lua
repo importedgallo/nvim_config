@@ -52,7 +52,14 @@ return packer.startup(function(use)
 	-- vs-code like icons
 	use("kyazdani42/nvim-web-devicons")
 
-	use("voldikss/vim-floaterm") -- floaterm terminal
+	--toggleterm nvim
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "*",
+		config = function()
+			require("toggleterm").setup()
+		end,
+	})
 
 	-- statusline
 	use("nvim-lualine/lualine.nvim")

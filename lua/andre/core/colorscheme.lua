@@ -6,7 +6,7 @@ end
 
 require("tokyonight").setup({
 	transparent = false,
-	style = "dark",
+	style = "storm",
 	styles = {
 		keywords = { italic = true },
 		comments = { italic = true },

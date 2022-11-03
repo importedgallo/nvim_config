@@ -37,3 +37,5 @@
 - windwp/nvim-autopairs
 - windwp/nvim-ts-autotag
 - lewis6991/gitsigns.nvim
+- akinsho/toggleterm.nvim
+- Pocco81/true-zen.nvim

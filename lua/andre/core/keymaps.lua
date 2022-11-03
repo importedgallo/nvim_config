@@ -60,5 +60,6 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 
 -- toggleterm
 keymap.set("n", "<C-t>", "<cmd>ToggleTerm<CR>")
+keymap.set("t", "<C-t>", "<cmd>ToggleTerm<CR>")
 -- keymap.set("n", "<leader>tn", "<cmd>FloatermNew<CR>")
 -- keymap.set("n", "<leader>tk", "<cmd>FloatermKill<CR>")

@@ -57,3 +57,8 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+--floaterm
+keymap.set("n", "<leader>tt", "<cmd>FloatermToggle<CR>")
+keymap.set("n", "<leader>tn", "<cmd>FloatermNew<CR>")
+keymap.set("n", "<leader>tk", "<cmd>FloatermKill<CR>")

@@ -52,6 +52,8 @@ return packer.startup(function(use)
 	-- vs-code like icons
 	use("kyazdani42/nvim-web-devicons")
 
+	use("voldikss/vim-floaterm") -- floaterm terminal
+
 	-- statusline
 	use("nvim-lualine/lualine.nvim")
 

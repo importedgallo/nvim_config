@@ -221,6 +221,11 @@ _G.packer_plugins = {
     path = "/home/andre/.local/share/nvim/site/pack/packer/start/typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
   },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/andre/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/home/andre/.local/share/nvim/site/pack/packer/start/vim-maximizer",

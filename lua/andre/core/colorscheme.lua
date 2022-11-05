@@ -12,6 +12,7 @@ require("tokyonight").setup({
 		comments = { italic = true },
 		sidebars = "dark",
 	},
+	colors = { hint = "orange", error = "#ff0000", bg_float = "none" },
 })
 
 vim.cmd("colorscheme tokyonight")

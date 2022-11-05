@@ -5,7 +5,7 @@ if not status then
 end
 
 require("tokyonight").setup({
-	transparent = false,
+	transparent = true,
 	style = "storm",
 	styles = {
 		keywords = { italic = true },

@@ -7,7 +7,6 @@ end
 -- recommended settings from nvim-tree documentation
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
-
 -- change color for arrows in tree to light blue
 vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
 
@@ -35,3 +34,6 @@ nvimtree.setup({
 		},
 	},
 })
+
+-- makes nvimtree transparent
+vim.cmd([[hi NvimTreeNormal guibg=NONE ctermbg=NONE]])

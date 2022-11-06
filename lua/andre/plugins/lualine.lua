@@ -5,7 +5,7 @@ if not status then
 end
 
 -- get lualine nightfly theme
-local lualine_catppuccin= require("lualine.themes.catppuccin")
+local lualine_catppuccin = require("lualine.themes.catppuccin")
 
 -- new colors for theme
 local new_colors = {
@@ -32,5 +32,20 @@ lualine_catppuccin.command = {
 lualine.setup({
 	options = {
 		theme = lualine_catppuccin,
+	},
+	native_lsp = {
+		enabled = true,
+		virtual_text = {
+			errors = { "italic" },
+			hints = { "italic" },
+			warnings = { "italic" },
+			information = { "italic" },
+		},
+		underlines = {
+			errors = { "underline" },
+			hints = { "underline" },
+			warnings = { "underline" },
+			information = { "underline" },
+		},
 	},
 })

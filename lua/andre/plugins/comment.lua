@@ -6,3 +6,6 @@ end
 
 -- enable comment
 comment.setup()
+
+-- mappings at https://github.com/numToStr/Comment.nvim
+-- :h comment.config

@@ -5,7 +5,7 @@ if not status then
 end
 
 -- get lualine nightfly theme
-local lualine_tokyonight = require("lualine.themes.tokyonight")
+local lualine_catppuccin = require("lualine.themes.catppuccin")
 
 -- new colors for theme
 local new_colors = {
@@ -17,10 +17,10 @@ local new_colors = {
 }
 
 -- change nightlfy theme colors
-lualine_tokyonight.normal.a.bg = new_colors.blue
-lualine_tokyonight.insert.a.bg = new_colors.green
-lualine_tokyonight.visual.a.bg = new_colors.violet
-lualine_tokyonight.command = {
+lualine_catppuccin.normal.a.bg = new_colors.blue
+lualine_catppuccin.insert.a.bg = new_colors.green
+lualine_catppuccin.visual.a.bg = new_colors.violet
+lualine_catppuccin.command = {
 	a = {
 		gui = "bold",
 		bg = new_colors.yellow,
@@ -31,6 +31,21 @@ lualine_tokyonight.command = {
 -- configure lualine with modified theme
 lualine.setup({
 	options = {
-		theme = lualine_tokyonight,
+		theme = lualine_catppuccin,
+	},
+	native_lsp = {
+		enabled = true,
+		virtual_text = {
+			errors = { "italic" },
+			hints = { "italic" },
+			warnings = { "italic" },
+			information = { "italic" },
+		},
+		underlines = {
+			errors = { "underline" },
+			hints = { "underline" },
+			warnings = { "underline" },
+			information = { "underline" },
+		},
 	},
 })

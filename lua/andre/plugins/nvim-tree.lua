@@ -33,6 +33,9 @@ nvimtree.setup({
 			},
 		},
 	},
+	filters = {
+		dotfiles = true,
+	},
 })
 
 -- makes nvimtree transparent

@@ -33,8 +33,8 @@ nvimtree.setup({
 			},
 		},
 	},
-	filters = {
-		dotfiles = true,
+	filters = { -- set nvim-tree filters here
+		-- dotfiles = true,
 	},
 })
 

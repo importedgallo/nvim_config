@@ -1,5 +1,7 @@
 # .config/nvim
 
+warning: lsp_saga is broken. Will fix soon
+
 ## Theme
 
 - folke/tokyonight.nvim
